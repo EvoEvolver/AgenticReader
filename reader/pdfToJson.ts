@@ -8,7 +8,7 @@ dotenv.config();
 /**
  * Main function to convert PDF to structured JSON tree
  */
-export async function pdfToTree(pdfPath: string): Promise<string> {
+export async function pdfToJSON(pdfPath: string): Promise<string> {
   console.log('Step 1: Converting PDF to HTML...');
   const htmlPath = await convertPdfToHtml(pdfPath);
 

@@ -1,6 +1,7 @@
-import { pdfToTree } from './pipeline';
+
 import { readdirSync, existsSync } from 'fs';
 import path, { join, parse } from 'path';
+import {pdfToJSON} from "./pdfToJson";
 
 const DATASET_DIR = path.resolve( __dirname, '..', 'dataset' );
 
@@ -39,7 +40,7 @@ async function convertDataset() {
 
     try {
       console.log(`Converting: ${pdfFile}...`);
-      await pdfToTree(pdfPath);
+      await pdfToJSON(pdfPath);
       console.log(`✓ Successfully converted: ${pdfFile}`);
       converted++;
     } catch (error) {
