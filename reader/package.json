@@ -1,0 +1,39 @@
+{
+  "name": "AgenticReader",
+  "version": "1.0.0",
+  "description": "PDF to structured tree converter using MinerU and LangChain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:agentic": "ts-node -r dotenv/config agenticReaderTest.ts",
+    "build": "tsc",
+    "start": "ts-node reader/index.ts",
+    "convert:dataset": "ts-node -r dotenv/config convertDataset.ts",
+    "extract:csv": "ts-node -r dotenv/config csv_extractor_example.ts",
+    "benchmark": "ts-node benchmark.ts"
+  },
+  "private": true,
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.53",
+    "@langchain/core": "^0.3.29",
+    "@langchain/openai": "^1.1.1",
+    "adm-zip": "^0.5.16",
+    "ai": "^5.0.93",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "katex": "^0.16.11",
+    "langchain": "^0.3.12",
+    "markdown-it": "^14.1.0",
+    "markdown-it-texmath": "^1.0.0",
+    "minio": "^8.0.2",
+    "turndown": "^7.2.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/turndown": "^5.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

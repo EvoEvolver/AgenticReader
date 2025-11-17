@@ -1,0 +1,478 @@
+[
+  {
+    "filename": "10.1021:acsmaterialslett.9b00536.html_extracted.csv",
+    "doi": "10.1021/acsmaterialslett.9b00536",
+    "total_extracted": 28,
+    "total_ground_truth": 14,
+    "matched_entries": 6,
+    "precision": 0.21428571428571427,
+    "recall": 0.42857142857142855,
+    "f1_score": 0.2857142857142857,
+    "matches": [
+      {
+        "label": "BSBCz (solution, toluene) A370 E420",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BSBCz (solution, toluene) A370 E447",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BSBCz (6 wt% CBP film) A298 E438",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BSBCz (6 wt% CBP film) A298 E462",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BSBCz (6 wt% CBP film) A331 E438",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BSBCz (6 wt% CBP film) A331 E462",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BSBCz (6 wt% CBP film) A389 E438",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BSBCz (6 wt% CBP film) A389 E462",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BSBCz (neat film) A372 E480",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz1 (solution, toluene) A369 E419",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz1 (solution, toluene) A369 E443",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz1 (6 wt% CBP film) A298 E441",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz1 (6 wt% CBP film) A298 E462",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz1 (6 wt% CBP film) A331 E441",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz1 (6 wt% CBP film) A331 E462",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz1 (6 wt% CBP film) A380 E441",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz1 (6 wt% CBP film) A380 E462",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz1 (neat film) A370 E484",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz2 (solution, toluene) A365 E407",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz2 (solution, toluene) A365 E430",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz2 (6 wt% CBP film) A298 E419",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz2 (6 wt% CBP film) A298 E445",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz2 (6 wt% CBP film) A331 E419",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz2 (6 wt% CBP film) A331 E445",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "BPBFCz2 (6 wt% CBP film) A376 E419",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz2 (6 wt% CBP film) A376 E445",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz2 (neat film) A367 E427",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "BPBFCz2 (neat film) A367 E452",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      }
+    ]
+  },
+  {
+    "filename": "10.1021:cm400945h.html_extracted.csv",
+    "doi": "10.1021/cm400945h",
+    "total_extracted": 14,
+    "total_ground_truth": 4,
+    "matched_entries": 0,
+    "precision": 0,
+    "recall": 0,
+    "f1_score": 0,
+    "matches": [
+      {
+        "label": "CzS1 solution absorption 293",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS1 solution absorption 332",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "CzS1 solution absorption 341",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "CzS1 solution emission 399",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS1 film absorption 293",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS1 film absorption 346",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "CzS1 film emission 428",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS2 solution absorption 300",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS2 solution absorption 332",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "CzS2 solution emission 381",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS2 solution emission 392",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS2 film absorption 304",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "CzS2 film absorption 347",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": true,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "CzS2 film emission 416",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      }
+    ]
+  },
+  {
+    "filename": "10.1021:jo100898a.html_extracted.csv",
+    "doi": "10.1021/jo100898a",
+    "total_extracted": 13,
+    "total_ground_truth": 22,
+    "matched_entries": 8,
+    "precision": 0.6153846153846154,
+    "recall": 0.36363636363636365,
+    "f1_score": 0.4571428571428572,
+    "matches": [
+      {
+        "label": "1",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "8",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "9",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "11",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "11 (ethanol, 446 nm detection)",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "11 (ethanol, 540 nm detection)",
+        "absorption_match": false,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": false
+      },
+      {
+        "label": "15",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "17",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "18",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "20",
+        "absorption_match": true,
+        "emission_match": false,
+        "lifetime_match": false,
+        "quantum_yield_match": false,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "21",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "23",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      },
+      {
+        "label": "26",
+        "absorption_match": true,
+        "emission_match": true,
+        "lifetime_match": true,
+        "quantum_yield_match": true,
+        "found_in_ground_truth": true
+      }
+    ]
+  }
+]
