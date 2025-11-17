@@ -1,0 +1,29 @@
+label,absorption_max_nm,emission_max_nm,lifetime_ns,quantum_yield
+"BSBCz (solution, toluene) A370 E420",370,420,0.87,0.89
+"BSBCz (solution, toluene) A370 E447",370,447,0.87,0.89
+BSBCz (6 wt% CBP film) A298 E438,298,438,1.3,0.98
+BSBCz (6 wt% CBP film) A298 E462,298,462,1.3,0.98
+BSBCz (6 wt% CBP film) A331 E438,331,438,1.3,0.98
+BSBCz (6 wt% CBP film) A331 E462,331,462,1.3,0.98
+BSBCz (6 wt% CBP film) A389 E438,389,438,1.3,0.98
+BSBCz (6 wt% CBP film) A389 E462,389,462,1.3,0.98
+BSBCz (neat film) A372 E480,372,480,1.6,0.69
+"BPBFCz1 (solution, toluene) A369 E419",369,419,0.97,0.96
+"BPBFCz1 (solution, toluene) A369 E443",369,443,0.97,0.96
+BPBFCz1 (6 wt% CBP film) A298 E441,298,441,1.5,1
+BPBFCz1 (6 wt% CBP film) A298 E462,298,462,1.5,1
+BPBFCz1 (6 wt% CBP film) A331 E441,331,441,1.5,1
+BPBFCz1 (6 wt% CBP film) A331 E462,331,462,1.5,1
+BPBFCz1 (6 wt% CBP film) A380 E441,380,441,1.5,1
+BPBFCz1 (6 wt% CBP film) A380 E462,380,462,1.5,1
+BPBFCz1 (neat film) A370 E484,370,484,2.2,0.89
+"BPBFCz2 (solution, toluene) A365 E407",365,407,0.93,0.93
+"BPBFCz2 (solution, toluene) A365 E430",365,430,0.93,0.93
+BPBFCz2 (6 wt% CBP film) A298 E419,298,419,1.3,1
+BPBFCz2 (6 wt% CBP film) A298 E445,298,445,1.3,1
+BPBFCz2 (6 wt% CBP film) A331 E419,331,419,1.3,1
+BPBFCz2 (6 wt% CBP film) A331 E445,331,445,1.3,1
+BPBFCz2 (6 wt% CBP film) A376 E419,376,419,1.3,1
+BPBFCz2 (6 wt% CBP film) A376 E445,376,445,1.3,1
+BPBFCz2 (neat film) A367 E427,367,427,1.8,0.87
+BPBFCz2 (neat film) A367 E452,367,452,1.8,0.87

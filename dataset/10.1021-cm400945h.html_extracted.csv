@@ -1,0 +1,15 @@
+label,absorption_max_nm,emission_max_nm,lifetime_ns,quantum_yield
+CzS1 solution absorption 293,293,,2.55,1
+CzS1 solution absorption 332,332,,2.55,1
+CzS1 solution absorption 341,341,,2.55,1
+CzS1 solution emission 399,,399,2.55,1
+CzS1 film absorption 293,293,,,0.98
+CzS1 film absorption 346,346,,,0.98
+CzS1 film emission 428,,428,,0.98
+CzS2 solution absorption 300,300,,1.51,1
+CzS2 solution absorption 332,332,,1.51,1
+CzS2 solution emission 381,,381,1.51,1
+CzS2 solution emission 392,,392,1.51,1
+CzS2 film absorption 304,304,,,0.79
+CzS2 film absorption 347,347,,,0.79
+CzS2 film emission 416,,416,,0.79
