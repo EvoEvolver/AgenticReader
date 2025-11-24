@@ -1,8 +1,9 @@
 import {existsSync} from 'fs';
 import {basename, extname, resolve} from 'path';
 import {uploadFileToMinio} from './minioClient';
-import {mineruPipeline} from './mineruPipeline';
+//import {mineruPipeline} from './mineruPipeline';
 import dotenv from 'dotenv';
+import {myPdfPipeline} from "./myPdfPipeline";
 
 // Load environment variables
 dotenv.config();
@@ -65,7 +66,8 @@ export async function convertPdfToHtml(
 
 
     // Run the MinerU pipeline
-    await mineruPipeline(fileUrl, outputPath);
+    //await mineruPipeline(fileUrl, outputPath);
+    await myPdfPipeline(filePath, outputPath);
 
     console.log('\n✓ Conversion complete!');
     console.log(`Output: ${outputPath}`);
